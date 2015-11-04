@@ -55,3 +55,11 @@ if (question5 == "No" || question5 === "no" || question5 === "n" || question5 ==
 	} else {
 	alert("Do you believe in Santa Claus as well?");
 }
+
+var question6 = 42;
+var guess = prompt("What number signifies the meaning of the universe?");
+if (guess == question6) {
+	alert("You are right sir!!");
+	} else {
+	alert('You lose! ' +  guess + ' is just a number!');
+	}	

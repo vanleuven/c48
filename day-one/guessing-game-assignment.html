@@ -1,0 +1,29 @@
+<DOCTYPE html>
+
+<head> <title>My super fun game</title> </head>
+
+<body> 
+<h1>Our Guessing Game</h1>
+
+
+
+<script>
+var number = 42;
+var guess = prompt("Guess a number between 0-50!");
+if (guess == number) {
+	alert("You win!!");
+	} else {
+		if (guess < number) {
+alert('You lose! I\'m afraid that ' + guess + ' is too low. To try again reload the page!');
+	} 	
+	// 	if (guess >= 40 && guess < 50) {
+	// 	alert("Ooh getting warmer!! Try again.");
+	// }
+		if (guess > number) {
+		alert('You lose! ' +  guess + ' is too high! To try again reload the page!');
+	}	
+}
+
+</script>
+
+</body>
