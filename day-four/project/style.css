@@ -1,0 +1,33 @@
+
+/*  Class = ., ID = #   */
+/*  generally we'll use ID for JS, */
+
+p {
+
+	color: red;
+}
+
+h1 {
+
+	font-size: 48px;
+}
+
+.primaryColor {
+	font-family: arial, helvetica;
+	color: blue;
+}
+
+#secondP {
+
+	border: dotted;
+}
+
+div p {
+
+	padding-left: 40px;
+}
+
+p.primaryColor {
+
+	background-color: #FFFF22;
+}
