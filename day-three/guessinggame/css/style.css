@@ -1,55 +1,44 @@
 h1{
-				font-size: 48px;
-				color: #000000;
-				text-align: center;
-				font-family: Arial, Helvetica;
-				/*border-radius: 25px;*
-				border-bottom: solid;*/
-				
+	font-size: 48px;
+	color: #000000;
+	text-align: center;
+	font-family: Arial, Helvetica;
 			}
-h2{
-				font-size: 36px;
-				color: #009999;
-			}
-h3{
-				font-size: 36px;
-				color: dark blue;
-				font-weight: 900;
-			}
-p {
 
-				font-size: 18px;
-				color: black;
-			}
+h3{
+	font-size: 36px;
+	color: dark blue;
+	font-weight: 900;
+}
+
+p {
+	font-size: 18px;
+	color: black;
+}
 
 img {
-				max-width:80%; 
-				max-height:80%; 
-				margin:auto; 
-				text-align: center;
-				display: block;
-    			margin-left: auto;
-    			margin-right: auto;
-			}
+	max-width:80%; 
+	max-height:80%; 
+	margin:auto; 
+	text-align: center;
+	display: block;
+	margin-left: auto;
+    margin-right: auto;
+}
 
 body {
-				font-family: Arial, Helvetica;
-				border: solid 1px black;
-				vertical-align: middle;
-        		border-radius: 1em;
-        		padding: 30px;
-/*        		position: absolute;
-        		top: 50%;
-        		left: 50%;
-        		margin-right: -50%;
-        		transform: translate(-50%, -50%);*/
-			}
+	font-family: Arial, Helvetica;
+	border: solid 1px black;
+	vertical-align: middle;
+	border-radius: 1em;
+    padding: 30px;
+}
 
 li, ul, ol {
-				font-size: 24px;
-				font-weight: 700;
-				padding-left: 30px;
-			}
+	font-size: 24px;
+	font-weight: 700;
+	padding-left: 30px;
+}
 	
 
 #response1{
