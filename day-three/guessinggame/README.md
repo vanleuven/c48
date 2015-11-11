@@ -18,3 +18,7 @@ To which the first atom replies, "Yes, I'm positive!"
 ---
 
 Day-Six 11-11-15
+
+I worked on this exercise alone.  Driver: James van Leuven, Navigator: James van Leuven.
+
+
