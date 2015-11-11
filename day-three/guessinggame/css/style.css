@@ -53,25 +53,49 @@ li, ul, ol {
 	
 
 #response1{
+	color: green;
+	font-weight: 900;
+	font-style: uppercase;
+	font-size: 50px;
+	text-align: center;
+}	
+
+#incorrect1{
 	color: red;
 	font-weight: 900;
 	font-style: uppercase;
 	font-size: 50px;
 	text-align: center;
-}	
+}
 
 #response2{
-	color: black;
+	color: green;
 	font-weight: 900;
 	font-style: uppercase;
 	font-size: 50px;
 	text-align: center;
 }	
 
+#incorrect2{
+	color: red;
+	font-weight: 900;
+	font-style: uppercase;
+	font-size: 50px;
+	text-align: center;
+}
+
 #response3{
-	color: orange;
+	color: green;
 	font-weight: 900;
 	font-style: uppercase;
 	font-size: 50px;
 	text-align: center;
 }	
+
+#incorrect3{
+	color: red;
+	font-weight: 900;
+	font-style: uppercase;
+	font-size: 50px;
+	text-align: center;
+}
