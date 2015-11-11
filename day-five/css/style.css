@@ -1,0 +1,22 @@
+body {
+  background-color: #999999;
+  margin: 10px;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+}
+
+p {
+  margin: 20px;
+  color: white;
+  font-size: 48px;
+  padding-left: 30px;
+}
+
+fred {
+  color: red;
+}
