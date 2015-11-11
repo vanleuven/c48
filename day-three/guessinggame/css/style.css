@@ -23,8 +23,8 @@ p {
 			}
 
 img {
-				max-width:20%; 
-				max-height:20%; 
+				max-width:80%; 
+				max-height:80%; 
 				margin:auto; 
 				text-align: center;
 				display: block;
@@ -70,30 +70,6 @@ li, ul, ol {
 
 #response3{
 	color: orange;
-	font-weight: 900;
-	font-style: uppercase;
-	font-size: 50px;
-	text-align: center;
-}	
-
-#response4{
-	color: red;
-	font-weight: 900;
-	font-style: uppercase;
-	font-size: 50px;
-	text-align: center;
-}	
-
-#response5{
-	color: green;
-	font-weight: 900;
-	font-style: uppercase;
-	font-size: 50px;
-	text-align: center;
-}	
-
-#response6{
-	color: purple;
 	font-weight: 900;
 	font-style: uppercase;
 	font-size: 50px;

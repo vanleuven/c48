@@ -15,19 +15,20 @@ el.textContent = questions[1];
 var el = document.getElementById('questions3');
 el.textContent = questions[2];
 
-
-
 var question1 = prompt(questions[0]);
 question1 = question1.toLowerCase();
 var elQuestion = document.getElementById('response1');
 elQuestion.textContent = question1;
 
 if (question1 === "yes" || question1 === "y" || question1 === "yup" || question1 === "yep") {
-	alert("Well hello Northwesterner!  Seattle is a wonderful place to grow up.");
+	
+	alert("Seattle is a wonderful place to grow up.");
+	var textContent = document.getElementById('response1Image');
+	var textContent = response1Image.innerHTML;
+	response1Image.innerHTML = '<div><img src="images/smileyface.png" alt="Smiley face" height="200" width="200"/></div>';
 	} else {
 	alert("Didn\'t think so.");
 }
-
 
 var question2 = prompt(questions[1]);
 question2 = question2.toLowerCase();
@@ -36,6 +37,9 @@ elQuestion.textContent = question2;
 
 if (question2 == "Wine" || question2 == "wine") {
 	alert("Yum, me too!  " + question2 + " is the best!");
+	var textContent = document.getElementById('response2Image');
+    var textContent = response2Image.innerHTML;
+    response2Image.innerHTML = '<div><img src="images/smileyface.png" alt="Smiley face" height="200" width="200"/></div>';
 	} else {
 	alert("That\'s a nice drink too.");
 }
@@ -48,6 +52,10 @@ elQuestion.textContent = question3;
 
 if (universe == question3) {
 	alert("You are right sir!!");
+	var textContent = document.getElementById('response3Image');
+	var textContent = response3Image.innerHTML;
+	response3Image.innerHTML = '<div><img src="images/smileyface.png" alt="Smiley face" height="200" width="200"/></div>';
 	} else {
 	alert('You lose! ' +  guess + ' is just a number!');
 	}	
+
