@@ -65,7 +65,7 @@ if (universe == question3) {
 	var textContent = response3Image.innerHTML;
 	response3Image.innerHTML = '<div><img src="images/smileyface.png" alt="Smiley face" height="200" width="200"/></div>';
 	} else {
-	alert("You lose! " +  guess + " is just a number!");
+	alert("You lose! " +  universe + " is just a number!");
 	var elQuestion = document.getElementById('incorrect3');
 	elQuestion.textContent = question3;
 }	

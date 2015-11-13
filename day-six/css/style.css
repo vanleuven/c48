@@ -1,0 +1,53 @@
+
+/*https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes
+*/
+
+body {
+	padding: 50px;
+	font-family: Arial;
+	border: 3px;
+	margin: 50px;
+}
+
+
+a {
+	color: blue;
+	text-align: center;
+	font-size: 54px;
+}
+
+a:visited {
+	color: purple;
+}
+
+a:hover {
+
+	color: green;
+	border: black;
+}
+
+a:active {
+	font-weight: 900;
+	font-size: 100px;
+	font-family: Impact;
+}
+
+.first-name {
+	height: 30px;
+	width: 300px;
+}
+
+.last-name {
+	height: 30px;
+	width: 300px;
+}
+
+.first-name:focus {
+  color: red;
+  font-weight: bold;
+}
+
+.last-name:focus {
+  color: lime;
+  font-weight: bold;
+}
