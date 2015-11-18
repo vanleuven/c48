@@ -1,0 +1,73 @@
+@font-face {
+  font-family: 'MyWebFont';
+  src: url('webfont.eot'); /* IE9 Compat Modes */
+  src: url('webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('webfont.woff2') format('woff2'), /* Super Modern Browsers */
+       url('webfont.woff') format('woff'), /* Pretty Modern Browsers */
+       url('webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('webfont.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+h1 {
+	font-family: 'MyWebFont', Fallback, sans-serif
+	font-size: 60px;
+	text-align: center;
+
+}
+
+
+
+p {
+	font-family: 'MyWebFont', Fallback, sans-serif;
+	font-weight: 300px;
+	font-size: 18px;	
+	text-align: center;
+}
+
+li {
+	color: blue;
+	text-align: left;
+
+}
+
+#chat-form {
+
+	font-size: 18px;
+}
+
+#clear-comments {
+
+	height: 40px;
+	width: 200px;
+	color: #9900cc;
+	background-color: #f0e5ff;
+	border: 1px;
+	border-color: black;
+}
+
+#comment-button {
+	height: 40px;
+	width: 200px;
+	color: #6600ff;
+	background-color: #f0e5ff;
+	border: 1px;
+	border-color: black;
+
+}
+
+#says{
+	height: 40px;
+	width: 200px;
+}
+
+#who{
+	height: 40px;
+	width: 200px;
+}
+#chat-form {
+	border: 1px;
+	outline-color: #c499ff;
+	padding: 10%;
+
+
+}
